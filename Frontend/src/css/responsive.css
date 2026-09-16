@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  overflow-wrap: break-word;
+}
+@media (max-width: 1024px) {
+  .propertylist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mybookings-container {
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.6rem 0.8rem;
+    gap: 0.5rem;
+  }
+  .header .search_filter {
+    width: 100%;
+    order: 3;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    height: auto;
+  }
+
+  .header .searchbar {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 0.4rem;
+    gap: 0.3rem;
+  }
+  .header .search,
+  .header .searchbar .ant-space {
+    width: 100%;
+    flex: none;
+    border-left: none;
+    padding: 0.4rem 0.6rem;
+  }
+  .header .searchicon {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .web_logo {
+    font-size: 30px;
+    padding: 0.4rem;
+  }
+  .propertylist {
+    grid-template-columns: repeat(2, 1fr);
+    width: 92%;
+  }
+
+  .property {
+    height: 18rem;
+  }
+  .property-img-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+  }
+  .img-item {
+    grid-row: auto;
+    grid-column: 1 / -1;
+    height: 15rem;
+  }
+
+  .images {
+    height: 8rem;
+  }
+
+  .property-container {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  .mybookings-container {
+    width: 94%;
+    flex-direction: column;
+  }
+
+  .booking-information,
+  .stay-information {
+    width: 100%;
+  }
+  .myaccomodation-container {
+    width: 94%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .myaccomodation-image-container {
+    width: 100%;
+    height: 11rem;
+  }
+
+  .myaccomodation-information {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  .myaccomodation-container:hover,
+  .mybookings-container:hover {
+    transform: scale(1.02);
+  }
+  .details-information-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .accom-form-container {
+    padding: 0 0.5rem;
+  }
+  .address-fields {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .address-fields > input {
+    width: 100%;
+  }
+  .btn,
+  .update-btn {
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .avatar-profile {
+    width: 9rem;
+  }
+  .wrapper form {
+    width: 92%;
+    max-width: 26rem;
+    padding: 1.25rem;
+  }
+  .modal-content {
+    width: 94%;
+    max-width: 30rem;
+  }
+  .trip-hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .trip-form {
+    padding: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .propertylist {
+    grid-template-columns: 1fr;
+    width: 94%;
+  }
+
+  .property {
+    height: 20rem;
+  }
+  .property-img-container {
+    grid-template-columns: 1fr;
+  }
+
+  .img-item {
+    height: 14rem;
+  }
+
+  .images {
+    height: 12rem;
+  }
+
+  .web_logo {
+    font-size: 26px;
+  }
+
+  .header img[alt="logo"] {
+    width: 4.5rem;
+  }
+  .trip-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .trip-property-grid,
+  .trip-days {
+    grid-template-columns: 1fr;
+  }
+
+  .trip-page {
+    padding: 1rem 0.75rem 3rem;
+  }
+
+  .trip-hero h1 {
+    font-size: 1.35rem;
+  }
+
+  .trip-chip {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.7rem;
+  }
+}

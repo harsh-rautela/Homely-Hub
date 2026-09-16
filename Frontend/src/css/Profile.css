@@ -1,0 +1,87 @@
+.profile {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.avatar-profile {
+  height: 13rem;
+  width: 13rem;
+  border: 4px solid #090909;
+  border-radius: 50%;
+  background-color: white;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto;
+}
+.avatar-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 50%;
+  display: block;
+}
+.userinfo {
+  margin-left: 6rem;
+}
+
+.user-info h4,
+h2 {
+  font-weight: 800;
+  margin-top: 2rem;
+  text-shadow: 2px 2px white;
+  letter-spacing: 2px;
+}
+
+.user-info p {
+  font-size: 1.1rem;
+}
+
+.btn {
+  background-color: #0e8b53;
+  border-color: #0e8b53;
+  color: white;
+  box-shadow: 2px 2px 10px rgb(183, 170, 170);
+  border-radius: 15px;
+  border-color: #8b8683;
+  width: 16rem;
+}
+
+.buttons {
+  display: flex;
+}
+.btn:hover {
+  background-color: rgba(177, 221, 184, 0.63);
+  border-color: rgb(2, 58, 11);
+  color: rgb(2, 58, 11);
+  font-weight: bold;
+}
+
+.update-btn {
+  display: block;
+  background-color: #0e8b53;
+  border: none;
+  color: white;
+  box-shadow: 0 4px 12px rgba(14, 139, 83, 0.3);
+  border-radius: 12px;
+  width: 100%;
+  margin: 2rem 0 0 0;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.update-btn:hover {
+  background-color: #0a6e41;
+  color: #ffffff;
+  box-shadow: 0 6px 16px rgba(14, 139, 83, 0.4);
+  transform: translateY(-1px);
+}
+.rounded-circle {
+  width: 50%;
+  margin-left: 2rem;
+}
+.custom-file {
+  margin-right: 1rem;
+}
