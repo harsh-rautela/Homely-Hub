@@ -7,6 +7,7 @@ import {propertyRouter} from "./routes/propertyRouter.js";
 import {bookingRouter} from "./routes/bookingRoute.js"
 import morgan from "morgan"
 import { aiRouter } from "./routes/aiRoute.js";
+import cors from "cors"
 dotenv.config();
 const app = express();
 app.use(express.json({limit:"100mb"}));
